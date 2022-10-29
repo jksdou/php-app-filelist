@@ -1,7 +1,7 @@
 <?php
 // error_reporting(0);
 define("DIR_INIT", true);
-define("SYSTEM_VERSION", '1.0.0');
+define("SYSTEM_VERSION", '1.0.1');
 define("SYSTEM_ROOT", dirname(__FILE__) . '/');
 define("ROOT", dirname(SYSTEM_ROOT) . '/');
 define("PAGE_ROOT", SYSTEM_ROOT . 'page/');

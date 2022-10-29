@@ -24,7 +24,7 @@ foreach ($navs as $nav) {
     <link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/4.6.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdn.staticfile.org/github-markdown-css/5.1.0/github-markdown.min.css">
     <link rel='stylesheet' href='./_dir/static/css/style.css?v=1002'>
-    <link rel="icon shortcut" href="./_dir/static/images/favicon.icon" mce_href="./_dir/static/images/favicon.icon" type="image/x-icon">
+    <link rel="icon shortcut" href="./_dir/static/images/favicon.ico" mce_href="./_dir/static/images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
