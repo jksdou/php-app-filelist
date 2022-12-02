@@ -30,7 +30,7 @@ if (!$conf) {
         'cache_indexes' => '0',
         'readme_md' => '1',
         'auth' => '0',
-        'nav' => 'UIISC*http://www.uiisc.com',
+        'nav' => 'CROGRAM*http://crogram.org',
     ];
     if (!$CACHE->set('config', $config)) {
         sysmsg('配置项初始化失败，可能无文件写入权限');
