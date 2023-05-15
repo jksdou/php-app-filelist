@@ -4,6 +4,7 @@ if (!defined('DIR_INIT')) {
 }
 
 ?>
+
 <footer class="footer card-footer mt-3" id="footer">
     <span>Copyright &copy; <?php echo date('Y') ?> </span>
     <span><?php echo $conf['brand'] ?> </span>

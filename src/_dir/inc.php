@@ -1,7 +1,7 @@
 <?php
 // error_reporting(0);
 define("DIR_INIT", true);
-define("SYSTEM_VERSION", '1.0.1');
+define("SYSTEM_VERSION", '1.0.2');
 define("SYSTEM_ROOT", dirname(__FILE__) . '/');
 define("ROOT", dirname(SYSTEM_ROOT) . '/');
 define("PAGE_ROOT", SYSTEM_ROOT . 'page/');
@@ -12,6 +12,8 @@ require SYSTEM_ROOT . 'functions.php';
 require SYSTEM_ROOT . 'Cache.class.php';
 require SYSTEM_ROOT . 'DirList.class.php';
 
+$islogin = false;
+$errmsg = '';
 $CACHE = new Cache();
 $conf = $CACHE->get('config');
 if (!$conf) {
