@@ -18,9 +18,11 @@
 
 - 支持安装在子目录
 
+- 支持压缩包文件直接下载
+
 ### 预览
 
-![WX20221126-114544@2x](assets/WX20221126-114544%402x.jpeg)
+![预览](assets/662c59be323dde7410af4ecf83f1a925.jpg)
 
 ### 使用方法
 
@@ -28,7 +30,4 @@
 
 演示：http://filelist.uiisc.com/
 
-源码：[http://filelist.uiisc.com/?dir=/源码下载](http://filelist.uiisc.com/?dir=/源码下载)
-
-
-
+源码：[http://filelist.uiisc.com/?dir=/release](http://filelist.uiisc.com/?dir=/release)

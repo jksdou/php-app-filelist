@@ -1,5 +1,5 @@
 <?php
-if (!defined('DIR_INIT')) {
+if (!defined('IN_CRONLITE')) {
     exit();
 }
 
@@ -7,9 +7,10 @@ if (!defined('DIR_INIT')) {
 
 <footer class="footer card-footer mt-3" id="footer">
     <span>Copyright &copy; <?php echo date('Y') ?> </span>
-    <span><?php echo $conf['brand'] ?> </span>
-    <span><?php echo $conf['footer'] ?> </span>
-    <span>Powered by <a href="https://crogram.org/" target="_blank">Crogram</a></span>
+    <span><?php echo $conf['brand'] ?></span>
+    <span><?php echo $conf['footer'] ?></span>
+    <br/>
+    <span>Powered by <a href="https://crogram.org/" target="_blank">CROGRAM</a></span>
 </footer>
 
 <script>

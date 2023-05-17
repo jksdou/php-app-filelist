@@ -1,5 +1,5 @@
 <?php
-if (!defined('DIR_INIT')) {
+if (!defined('IN_CRONLITE')) {
     exit();
 }
 
@@ -31,7 +31,8 @@ foreach ($navs as $nav) {
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white border-bottom" id="navbar">
         <div class="container big-nav">
-            <a class="navbar-brand" href="./"><?php echo $conf['brand'] ?>
+            <a class="navbar-brand" href="./">
+                <?php echo $conf['brand'] ?>
                 <!-- <img src="./_dir/static/images/logo.png" width="40" height="40" class="d-inline-block align-top mr-2" alt="LOGO"> -->
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -2,4 +2,5 @@
 Thumbs.db
 test/
 dist/
+release/
 config.php

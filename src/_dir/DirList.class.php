@@ -32,6 +32,7 @@ class DirList
         $type_video = ['mp4', 'webm', 'flv', 'f4v', 'mov', '3gp', '3gpp', 'avi', 'wmv', 'mkv', 'ts', 'dat', 'asf', 'mts', 'm2ts', 'm3u8', 'm4v'];
         $type_office = ['doc', 'docx', 'xps', 'rtf', 'wps', 'xls', 'xlsx', 'ppt', 'pptx', 'pdf'];
         $type_markdown = ['md'];
+        $type_compressed = ['cab', 'zip', 'zipx', 'rar', 'rpm', 'tar.gz', 'gz', 'tgz', 'tar', 'arj', 'z', 'zz', 'jar', 'apk', 'lzh', '7z', 'msi', 'exe', 'bin'];
         $type_text = ['txt', 'text', 'log', 'yaml', 'yml', 'conf', 'config', 'ini', 'c', 'cpp', 'cxx', 'rc', 'php', 'py', 'cs', 'h', 'htm', 'html', 'css', 'less', 'sass', 'scss', 'js', 'hdml', 'dtd', 'wml', 'xml', 'xsl', 'vbs', 'vb', 'rtx', 'xsd', 'dpr', 'sql', 'java', 'go', 'jsp', 'asp', 'aspx', 'asa', 'asax', 'pl', 'bat', 'cmd', 'rb', 'reg', 'sh', 'json', 'lua', 'r', 'mm', 'mak', 'swift', 'tpl'];
         if (in_array($type, $type_image)) {
             return 'image';
@@ -43,6 +44,8 @@ class DirList
             return 'office';
         } elseif (in_array($type, $type_markdown)) {
             return 'markdown';
+        } elseif (in_array($type, $type_compressed)) {
+            return 'compressed';
         } elseif (in_array($type, $type_text)) {
             return 'text';
         } else {

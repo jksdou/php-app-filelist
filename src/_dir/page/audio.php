@@ -1,5 +1,5 @@
 <?php
-if (!defined('DIR_INIT')) {
+if (!defined('IN_CRONLITE')) {
     exit();
 }
 

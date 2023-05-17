@@ -1,5 +1,5 @@
 <?php
-if (!defined('DIR_INIT')) exit();
+if (!defined('IN_CRONLITE')) exit();
 
 if (!$islogin) exit("<script language='javascript'>window.location.href='./?c=login';</script>");
 

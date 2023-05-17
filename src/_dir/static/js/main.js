@@ -119,7 +119,7 @@ function view_video(name, path) {
 function view_markdown(name, path) {
     var apiurl = './?c=markdown&path=' + encodeURIComponent(path)
     layer.open({
-        title: 'MarkDown查看器 - ' + name,
+        title: 'Markdown查看器 - ' + name,
         type: 2,
         area: ['100%', '100%'],
         content: apiurl
